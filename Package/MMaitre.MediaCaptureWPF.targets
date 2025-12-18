@@ -1,10 +1,10 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Reference Include="MMaitre.MediaCaptureWPF">
-      <HintPath>$(MSBuildThisFileDirectory)\..\net451\$(PlatformTarget)\MediaCaptureWPF.dll</HintPath>
+      <HintPath>$(MSBuildThisFileDirectory)\..\net472\$(PlatformTarget)\MediaCaptureWPF.dll</HintPath>
     </Reference>
     <Reference Include="MMaitre.MediaCaptureWPF.Native">
-      <HintPath>$(MSBuildThisFileDirectory)\..\net451\$(PlatformTarget)\MediaCaptureWPF.Native.dll</HintPath>
+      <HintPath>$(MSBuildThisFileDirectory)\..\net472\$(PlatformTarget)\MediaCaptureWPF.Native.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>
