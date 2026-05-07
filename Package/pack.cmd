@@ -1,7 +1,7 @@
 @echo off
 setlocal enableextensions
 
-set VERSION=1.2.0
+set VERSION=2.0.0-beta
 
 REM Clean
 call .\clean.cmd
