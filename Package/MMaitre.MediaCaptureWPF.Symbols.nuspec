@@ -16,10 +16,10 @@
   <files>
 
     <!-- symbols -->
-    <file src="..\MediaCaptureWPF\bin\x86\Release\net472\MediaCaptureWPF.pdb" target="build\net472\x86\" />
-    <file src="..\MediaCaptureWPF\bin\x86\Release\net472\MediaCaptureWPF.Native.pdb" target="build\net472\x86\" />
-    <file src="..\MediaCaptureWPF\bin\x64\Release\net472\MediaCaptureWPF.pdb" target="build\net472\x64\" />
-    <file src="..\MediaCaptureWPF\bin\x64\Release\net472\MediaCaptureWPF.Native.pdb" target="build\net472\x64\" />
+    <file src="..\MediaCaptureWPF\bin\x86\Release\net10.0-windows10.0.19041.0\MediaCaptureWPF.pdb" target="build\net10.0\x86\" />
+    <file src="..\MediaCaptureWPF\bin\x86\Release\net10.0-windows10.0.19041.0\MediaCaptureWPF.Native.pdb" target="build\net10.0\x86\" />
+    <file src="..\MediaCaptureWPF\bin\x64\Release\net10.0-windows10.0.19041.0\MediaCaptureWPF.pdb" target="build\net10.0\x64\" />
+    <file src="..\MediaCaptureWPF\bin\x64\Release\net10.0-windows10.0.19041.0\MediaCaptureWPF.Native.pdb" target="build\net10.0\x64\" />
 
     <!-- source -->
     <file src="..\**\*.cpp" target="src\" />

@@ -5,7 +5,7 @@
 
 using namespace MediaCaptureWPF::Native;
 using namespace msclr;
-using namespace System::Runtime::InteropServices;
+using namespace System;
 using namespace System::Windows;
 using namespace System::Windows::Interop;
 using namespace System::Windows::Threading;
@@ -34,7 +34,7 @@ CapturePreviewNative::CapturePreviewNative(_In_ D3DImage^ image, unsigned int wi
 
     Trace("CapturePreviewNative::CapturePreview@ wrapping the native sink in managed object");
 
-    m_sink = Marshal::GetObjectForIUnknown(IntPtr(sink.p));
+    m_sink = WinRT::MarshalInterface<Object^>::FromAbi(IntPtr(sink.p)); // For .Net Core
 
     m_state = new CapturePreviewNativeState(width, height, sink);
 }
