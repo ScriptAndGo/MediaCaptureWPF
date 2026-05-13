@@ -1,10 +1,16 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Reference Include="MMaitre.MediaCaptureWPF">
-      <HintPath>$(MSBuildThisFileDirectory)\..\net10.0\$(PlatformTarget)\MediaCaptureWPF.dll</HintPath>
+    <Reference Include="MMaitre.MediaCaptureWPF" Condition="'$(Platform)' == 'x64' OR '$(Platform)' == 'x86'">
+      <HintPath>$(MSBuildThisFileDirectory)\..\net10.0\$(Platform)\MediaCaptureWPF.dll</HintPath>
     </Reference>
-    <Reference Include="MMaitre.MediaCaptureWPF.Native">
-      <HintPath>$(MSBuildThisFileDirectory)\..\net10.0\$(PlatformTarget)\MediaCaptureWPF.Native.dll</HintPath>
+    <Reference Include="MMaitre.MediaCaptureWPF.Native" Condition="'$(Platform)' == 'x64' OR '$(Platform)' == 'x86'">
+      <HintPath>$(MSBuildThisFileDirectory)\..\net10.0\$(Platform)\MediaCaptureWPF.Native.dll</HintPath>
+    </Reference>
+    <Reference Include="MMaitre.MediaCaptureWPF" Condition="'$(Platform)' == 'AnyCPU'">
+      <HintPath>$(MSBuildThisFileDirectory)\..\net10.0\ref\MediaCaptureWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="MMaitre.MediaCaptureWPF.Native" Condition="'$(Platform)' == 'AnyCPU'">
+      <HintPath>$(MSBuildThisFileDirectory)\..\net10.0\ref\MediaCaptureWPF.Native.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>
