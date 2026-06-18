@@ -11,6 +11,8 @@ msbuild -restore -v:m .\pack.sln /maxcpucount /target:build /nologo /p:Configura
 if %ERRORLEVEL% NEQ 0 goto eof
 msbuild -restore -v:m .\pack.sln /maxcpucount /target:build /nologo /p:Configuration=Release /p:Platform=x64
 if %ERRORLEVEL% NEQ 0 goto eof
+msbuild -restore -v:m .\pack.sln /maxcpucount /target:build /nologo /p:Configuration=Release /p:Platform=ARM64
+if %ERRORLEVEL% NEQ 0 goto eof
 
 REM Pack
 nuget.exe pack MMaitre.MediaCaptureWPF.nuspec -OutputDirectory Packages -Prop NuGetVersion=%VERSION% -NoPackageAnalysis

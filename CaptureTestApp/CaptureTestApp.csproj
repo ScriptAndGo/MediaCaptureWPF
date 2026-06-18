@@ -6,7 +6,7 @@
     <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <Configurations>Debug;Release</Configurations>
-    <Platforms>x86;x64</Platforms>
+    <Platforms>x86;x64;ARM64</Platforms>
   </PropertyGroup>
   <ItemGroup>
     <AppDesigner Include="Properties\" />
