@@ -20,6 +20,8 @@
     <file src="..\MediaCaptureWPF\bin\x86\Release\net472\MediaCaptureWPF.Native.pdb" target="build\net472\x86\" />
     <file src="..\MediaCaptureWPF\bin\x64\Release\net472\MediaCaptureWPF.pdb" target="build\net472\x64\" />
     <file src="..\MediaCaptureWPF\bin\x64\Release\net472\MediaCaptureWPF.Native.pdb" target="build\net472\x64\" />
+    <file src="..\MediaCaptureWPF\bin\ARM64\Release\net472\MediaCaptureWPF.pdb" target="build\net472\ARM64\" />
+    <file src="..\MediaCaptureWPF\bin\ARM64\Release\net472\MediaCaptureWPF.Native.pdb" target="build\net472\ARM64\" />
 
     <!-- source -->
     <file src="..\**\*.cpp" target="src\" />

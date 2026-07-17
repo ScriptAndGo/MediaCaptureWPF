@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37328.6 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MediaCaptureWPF.Native", "..\MediaCaptureWPF.Native\MediaCaptureWPF.Native.vcxproj", "{21717C88-442C-47EB-94D5-0405CB3CDD9F}"
 EndProject
@@ -11,18 +11,25 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaCaptureWPF", "..\Media
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|ARM64 = Release|ARM64
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21717C88-442C-47EB-94D5-0405CB3CDD9F}.Release|ARM64.ActiveCfg = Release|ARM64
+		{21717C88-442C-47EB-94D5-0405CB3CDD9F}.Release|ARM64.Build.0 = Release|ARM64
 		{21717C88-442C-47EB-94D5-0405CB3CDD9F}.Release|x64.ActiveCfg = Release|x64
 		{21717C88-442C-47EB-94D5-0405CB3CDD9F}.Release|x64.Build.0 = Release|x64
 		{21717C88-442C-47EB-94D5-0405CB3CDD9F}.Release|x86.ActiveCfg = Release|Win32
 		{21717C88-442C-47EB-94D5-0405CB3CDD9F}.Release|x86.Build.0 = Release|Win32
+		{62AC26B6-1B32-421D-BD24-013B85533626}.Release|ARM64.ActiveCfg = Release|ARM64
+		{62AC26B6-1B32-421D-BD24-013B85533626}.Release|ARM64.Build.0 = Release|ARM64
 		{62AC26B6-1B32-421D-BD24-013B85533626}.Release|x64.ActiveCfg = Release|x64
 		{62AC26B6-1B32-421D-BD24-013B85533626}.Release|x64.Build.0 = Release|x64
 		{62AC26B6-1B32-421D-BD24-013B85533626}.Release|x86.ActiveCfg = Release|Win32
 		{62AC26B6-1B32-421D-BD24-013B85533626}.Release|x86.Build.0 = Release|Win32
+		{FC9A3BF8-C17B-40E3-9C6A-DEAD52016D7F}.Release|ARM64.ActiveCfg = Release|ARM64
+		{FC9A3BF8-C17B-40E3-9C6A-DEAD52016D7F}.Release|ARM64.Build.0 = Release|ARM64
 		{FC9A3BF8-C17B-40E3-9C6A-DEAD52016D7F}.Release|x64.ActiveCfg = Release|x64
 		{FC9A3BF8-C17B-40E3-9C6A-DEAD52016D7F}.Release|x64.Build.0 = Release|x64
 		{FC9A3BF8-C17B-40E3-9C6A-DEAD52016D7F}.Release|x86.ActiveCfg = Release|x86
@@ -30,5 +37,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADC447AE-3D0A-4628-B226-25AD9C0B98B2}
 	EndGlobalSection
 EndGlobal
